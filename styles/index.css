@@ -1,8 +1,7 @@
-font-family: 'Montserrat', sans-serif;
+/* font-family: 'Montserrat', sans-serif;
 font-family: 'Ramaraja', serif;
 font-family: 'Roboto', sans-serif;
-
-
+ */
 
 .logo {
     font-family: 'Circular Std', 'Montserrat', sans-serif;
@@ -11,11 +10,13 @@ font-family: 'Roboto', sans-serif;
     font-size: 30px;
     line-height: 160%;
     /* or 48px */
-    
     letter-spacing: -0.02em;
     color: #0A1B32;
+
+    margin-top: 37px;
+    margin-left: 80px;
 }
 
 .logo-dot {
-    color: #0A1B32;
+    color: #4F56F1;
 }
