@@ -3,3 +3,19 @@ font-family: 'Ramaraja', serif;
 font-family: 'Roboto', sans-serif;
 
 
+
+.logo {
+    font-family: 'Circular Std', 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 160%;
+    /* or 48px */
+    
+    letter-spacing: -0.02em;
+    color: #0A1B32;
+}
+
+.logo-dot {
+    color: #0A1B32;
+}
