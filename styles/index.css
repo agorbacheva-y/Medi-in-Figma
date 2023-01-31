@@ -3,12 +3,16 @@ font-family: 'Ramaraja', serif;
 font-family: 'Roboto', sans-serif;
  */
 
+
+
+/* container for logo, nav bar, sign in button */
 header {
     display: flex;
     justify-content: left;
     width: 100%;
 }
 
+/* logo */
 .logo {
     font-family: 'Circular Std', 'Montserrat', sans-serif;
     font-style: normal;
@@ -27,6 +31,7 @@ header {
     color: #4F56F1;
 }
 
+/* navigation bar */ 
 .nav-bar {
     list-style-type: none;
 
@@ -39,9 +44,9 @@ header {
 
     text-align: center;
     letter-spacing: 0.02em;
-
     color: #1B0A42;
 
+    width: 100%;
     margin-top: 37px;
     margin-left: 90px;
     overflow: hidden;
@@ -52,7 +57,42 @@ header {
     padding: 0 5%;
 }
 
-
 a:link {
     text-decoration: none;
+    color: #1B0A42;
+}
+
+/* sign in button */
+.login {
+    float: right;
+}
+
+.sign-in {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #1B0A42;
+}
+
+.sign-up-button {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+
+background: #4F56F1;
+border-radius: 6px;
 }
