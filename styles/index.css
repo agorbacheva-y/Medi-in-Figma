@@ -64,35 +64,41 @@ a:link {
 
 /* sign in button */
 .login {
-    float: right;
-}
+    display: inline;
+    }
 
 .sign-in {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
 
-text-align: center;
-letter-spacing: 0.02em;
+    text-align: center;
+    letter-spacing: 0.02em;
 
-color: #1B0A42;
+    color: #1B0A42;
+
+    float: left;
 }
 
 .sign-up-button {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
 
-text-align: center;
-letter-spacing: 0.02em;
-color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 
-background: #4F56F1;
-border-radius: 6px;
+    background: #4F56F1;
+    border-radius: 6px;
+
+    float: left;
+    padding: 18px 31px;
+    border: none;
 }
