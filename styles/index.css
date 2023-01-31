@@ -10,6 +10,7 @@ header {
     display: flex;
     justify-content: left;
     width: 100%;
+    align-items: center;
 }
 
 /* logo */
@@ -23,7 +24,6 @@ header {
     letter-spacing: -0.02em;
     color: #0A1B32;
 
-    margin-top: 37px;
     margin-left: 80px;
 }
 
@@ -46,9 +46,8 @@ header {
     letter-spacing: 0.02em;
     color: #1B0A42;
 
-    width: 100%;
-    margin-top: 37px;
-    margin-left: 90px;
+    width: 300px;
+    margin-left: 17%;
     overflow: hidden;
     }
 
@@ -64,7 +63,10 @@ a:link {
 
 /* sign in button */
 .login {
-    display: inline;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    float: right;
     }
 
 .sign-in {
@@ -77,10 +79,7 @@ a:link {
 
     text-align: center;
     letter-spacing: 0.02em;
-
     color: #1B0A42;
-
-    float: left;
 }
 
 .sign-up-button {
@@ -97,8 +96,10 @@ a:link {
 
     background: #4F56F1;
     border-radius: 6px;
-
-    float: left;
     padding: 18px 31px;
     border: none;
+
+    float: right;
+    margin-left: 40px;
 }
+
