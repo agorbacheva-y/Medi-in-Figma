@@ -101,14 +101,26 @@ a:link {
     margin-left: 40px;
 }
 
+/* main section */
+    
+    /* tried to align the text and image sections vertically 
+    by making .main flex and aligning center, but did not do anything...
+    tried applying to sections in .main but also did not do anything...*/ 
 
-/* main text section */ 
+/* .main section {
+    display: flex;
+    align-items: center;
+} */
+
+
+/* main section with text */ 
 .main-text {
     margin-left: 200px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    /* tried to center vertically with flex but above method works better
+    /* tried to center vertically with flex (code below) 
+    but above method works better
     
     display: flex;
     flex-direction: column;
@@ -158,4 +170,15 @@ a:link {
     border-radius: 6px;
     padding: 18px 31px;
     border: none;
+}
+
+/* main section with graphic */
+.yoga {
+    float: right;
+    margin-right: 94px;
+}
+
+.yoga-img {
+    width: 653px;
+    height: auto;
 }
