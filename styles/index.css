@@ -105,6 +105,18 @@ a:link {
 
 
 /* main text section */ 
+.main-text {
+    margin-left: 200px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* tried to center vertically with flex but above method works better
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+}
+
 .main-text h1 {
     font-family: 'Ramaraja';
     font-style: normal;
@@ -114,7 +126,7 @@ a:link {
     /* or 106% */
 
     letter-spacing: 0.02em;
-
+    margin-bottom: -10px;
     color: #1B0A42;
 }
 
@@ -127,7 +139,7 @@ a:link {
     /* or 160% */
     
     letter-spacing: 0.02em;
-    
+    margin-bottom: 50px;
     color: #9A9A9A;
 }
 
