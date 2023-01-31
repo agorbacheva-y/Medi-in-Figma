@@ -61,10 +61,8 @@ a:link {
     display: flex;
     align-items: center;
     width: 100%;
-    float: right;
-
-    /* tried to make this float right but could not figure out how
-    to make it go any further to the right... */
+    justify-content: flex-end;
+    margin-right: 67px;
     }
 
 .sign-in {
@@ -104,12 +102,16 @@ a:link {
 /* main section */
     
     /* tried to align the text and image sections vertically 
-    by making .main flex and aligning center, but did not do anything...
+    by making .main flex and align-items center, but did not do anything...
     tried applying to sections in .main but also did not do anything...*/ 
 
 /* .main section {
     display: flex;
     align-items: center;
+
+    ended up using position absolute and centering the text section and
+    image section separately. not sure if this is the best method for 
+    responsive web design...
 } */
 
 
@@ -174,8 +176,13 @@ a:link {
 
 /* main section with graphic */
 .yoga {
-    float: right;
-    margin-right: 94px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+
+    /* tried to center vertically with flex
+    but above method works better*/
 }
 
 .yoga-img {
