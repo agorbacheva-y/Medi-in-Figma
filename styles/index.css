@@ -103,3 +103,49 @@ a:link {
     margin-left: 40px;
 }
 
+
+/* main text section */ 
+.main-text h1 {
+    font-family: 'Ramaraja';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+
+    letter-spacing: 0.02em;
+
+    color: #1B0A42;
+}
+
+.main-text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #9A9A9A;
+}
+
+.learn-more-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+    background: #4F56F1;
+    border-radius: 6px;
+    padding: 18px 31px;
+    border: none;
+}
