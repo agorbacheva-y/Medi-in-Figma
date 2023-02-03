@@ -1,5 +1,5 @@
 /* container for logo, nav bar, sign in button */
-header {
+.header {
     display: flex;
     justify-content: flex-start;
     width: 100%;
@@ -7,7 +7,7 @@ header {
 }
 
 /* logo */
-.logo {
+.header__logo {
     font-family: 'Circular Std', 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -20,12 +20,12 @@ header {
     margin-left: 80px;
 }
 
-.logo-dot {
+.header__logo-dot {
     color: #4F56F1;
 }
 
 /* navigation bar */ 
-.nav-bar {
+.header__nav-bar {
     list-style-type: none;
 
     font-family: 'Roboto';
@@ -44,7 +44,7 @@ header {
     overflow: hidden;
     }
 
-.nav-bar li {
+.header__nav-bar li {
     float: left;
     padding: 0 5%;
 }
@@ -55,7 +55,7 @@ a:link {
 }
 
 /* sign in button */
-.login {
+.header__login {
     display: flex;
     align-items: center;
     width: 100%;
@@ -63,7 +63,7 @@ a:link {
     margin-right: 67px;
     }
 
-.sign-in {
+.login--signin {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -76,7 +76,7 @@ a:link {
     color: #1B0A42;
 }
 
-.sign-up-button {
+.login--button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -106,11 +106,11 @@ a:link {
 }
 
 /* text in main section */ 
-.main-text {
+.main-section {
     max-width: 540px;
 }
 
-.main-text h1 {
+.main__title {
     font-family: 'Ramaraja';
     font-style: normal;
     font-weight: 400;
@@ -123,7 +123,7 @@ a:link {
     color: #1B0A42;
 }
 
-.main-text p {
+.main__text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -136,7 +136,7 @@ a:link {
     color: #9A9A9A;
 }
 
-.learn-more-button {
+.btn--more {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -156,7 +156,7 @@ a:link {
 }
 
 /* image in main section */
-.yoga-img {
+.image__yoga {
     max-width: 600px;
     height: auto;
     margin-top: 130px;
