@@ -1,7 +1,7 @@
 /* container for logo, nav bar, sign in button */
 header {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     width: 100%;
     align-items: center;
 }
@@ -16,8 +16,6 @@ header {
     /* or 48px */
     letter-spacing: -0.02em;
     color: #0A1B32;
-
-    /* copied style from figma but the font weight looks different?? */
 
     margin-left: 80px;
 }
@@ -100,33 +98,16 @@ a:link {
 }
 
 /* main section */
-    
-    /* tried to align the text and image sections vertically 
-    by making .main flex and align-items center, but did not do anything...
-    tried applying to sections in .main but also did not do anything...*/ 
-
-/* .main section {
+.main {
     display: flex;
+    width: 100%;
     align-items: center;
+    justify-content: space-around;
+}
 
-    ended up using position absolute and centering the text section and
-    image section separately. not sure if this is the best method for 
-    responsive web design...
-} */
-
-
-/* main section with text */ 
+/* text in main section */ 
 .main-text {
-    margin-left: 200px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    /* tried to center vertically with flex (code below) 
-    but above method works better
-    
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; */
+    max-width: 540px;
 }
 
 .main-text h1 {
@@ -174,18 +155,9 @@ a:link {
     border: none;
 }
 
-/* main section with graphic */
-.yoga {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%);
-
-    /* tried to center vertically with flex
-    but above method works better*/
-}
-
+/* image in main section */
 .yoga-img {
-    width: 653px;
+    max-width: 600px;
     height: auto;
+    margin-top: 130px;
 }
